@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=""UTF-8 />
+        <meta name="keywords" content="Animals, cats, dogs, rabbits" />
+        <meta name="author" content="Ceesay Fofana" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Animals</title>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+    </head>
+    <body>
+        <header class="site-header">
+            <!-- ===== HERO ===== -->
+            <div class="hero">
+                <h1>Welcome.</h1>
+                <h2>Our friends need a home.</h2>
+            </div>
+            <!-- ===== NAVBAR ===== -->
+            <div class="main-nav">
+                <ul class="nav">
+                    <li><a href="" data-filter="all">All Animals</a></li>
+                    <li><a href="" data-filter="dog"><span class="only">Only</span> Dogs</a></li>
+                    <li><a href="" data-filter="cat"><span class="only">Only</span> Cats</a></li>
+                    <li><a href="" data-filter="rabbit"><span class="only">Only</span> Rabbits</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <section class="main-content">
+            <template id="animal-card">
+                <article class="card">
+                    <div class="card-img">
+                        <img src="" />
+                    </div>
+                    <div class="card-info">
+                        <h3 class="card-name"></h3>
+                        <small><span class="card-age"></span> - <span class="species"></span></small>
+                        <p class="card-txt"></p>
+                        <a href="">
+                            <button type="button" class="card-btn">Adopt <span></span></button>
+                        </a>
+                    </div>
+                </article> 
+            </template>
+        </section>
+
+        <!-- ===== FOOTER ===== -->
+        <footer>
+
+        </footer>
+
+        <!-- ===== JAVASCRIPT ===== -->
+        <script type="module" src="assets/js/main.js"></script>
+    </body>
+</html>
